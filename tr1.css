@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+header{
+    background-image:url('https://image.freepik.com/free-photo/magnificent-woman-long-bright-skirt-dancing-studio-carefree-inspired-female-model-posing-with-pleasure-yellow_197531-11084.jpg');
+    
+    background-size: cover;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  
+    
+    
+    height: 579px;
+    
+   background-position: relative;
+  
+
+
+
+
+}
+ nav{
+   position:absolute;
+   top:0;
+   right:0;
+   left:0;
+   z-index: 2;
+   display: flex;
+   flex-wrap: wrap;
+
+  /* padding: 50px 60px 0 60px;*/
+
+
+ }
+ nav li{
+   list-style:none;
+   display: inline-block;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin-top: 20px;
+
+ }
+ nav li span{
+   padding-left: 5px;
+ }
+ li a{
+   padding: 5px;
+   background-color:rgba(245, 137, 37, 0.897) ;
+   text-decoration: none;
+   border-radius: 10px;
+   color: rgb(14, 2, 2);
+   
+ }
+ nav div{
+   position:relative;
+   top: 70px;
+   right:0px;
+   left: 990px;background-color: red;
+   border-radius: 15px;
+   padding-top:40px ;
+   padding-left:0px ;
+   padding-right:0px ;
+   
+
+ }
+ nav H1{
+   position: relative;
+   top: 150px;
+   right: 500px;
+   padding-left:100px;
+   padding-right:100px;
+   padding-top:40px;
+   padding-bottom:40px;
+   
+  
+   font-size: 80px;
+    border-radius: 150px;
+    
+  
+   background-color: mediumorchid;
+  }
+ nav H2{
+  position:relative;
+  top: 200px;
+  right: 0px;
+  left: 100px;
+  padding-left:30px;
+   padding-right:50px;
+   padding-top:30px;
+   padding-bottom:10px;
+   
+  
+   font-size: 40px;
+    border-radius: 100px;
+    background-color: red;
+ }
+ .cart a{
+   cursor: pointer;
+   text-decoration: none;
+ }
+ .container,
+ .products-container{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 50px;
+   padding-bottom: 100px;
+ }
+/* .image{
+   display:flex;
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+ }*/
+ .image{
+   margin-right: 20px;
+   margin-left: 20px;
+   position: relative;
+   overflow:hidden ;
+   height:60 px;
+   width: px;
+   object-fit: cover;
+   margin-bottom: 60px;
+ }
+ .imgg{
+   height: 400px;
+   width: 400px;
+ }
+ .add-cart{
+   position: relative;
+   left: 5px;
+   bottom: 183px;
+   margin-bottom: 10px;
+   font-size: 30px;
+   width:400px;
+   cursor:pointer;
+   text-align: center;
+   padding-left:45px;
+   padding-right:45px;
+   padding-top: 3px;
+   background-color: rgb(238, 124, 17);
+    text-decoration: none;
+
+ }
+ .image h3,h4{
+   position: relative;
+   top:44px;
+   bottom: 0px;
+   background-color:whitesmoke;
+   padding-bottom:24px;
+   margin-bottom: 0px;
+   padding-top:0px;
+   font-size: 25px;
+   text-align: center;
+ }
+ h1#pur{
+   position: relative;
+   left:216px;
+   bottom:100px;
+   background-color: rgb(11, 124, 67);
+   padding-left:3px;
+ }
+ .image h2#off
+ {
+   position: relative;
+   text-align: center;
+   padding: 10px;
+   background-color: rgb(161, 102, 24);
+ }
+ .image .cart1:hover,
+ .image .cart2:hover,
+ .image .cart3:hover,
+ .image .cart4:hover,
+ .image .cart5:hover,
+ .image .cart6:hover
+ {
+   text-decoration: none;
+   background-color: rgb(236, 10, 10);
+ }
+  nav li a:hover{
+    background-color: rgb(209, 31, 0);
+  }
+   
+   /*-------CARTPAGE--------------*/
+
+   .products-container{
+     max-width: 700px;
+     justify-content: space-around;
+     margin: 0 auto;
+     margin-top: 50px;
+   }
+   .products-container ion-icon{
+       font-size: 25px;
+       color: blue;
+       margin-left: 10px;
+       margin-right:10px;
+       cursor: pointer;
+   }
+   .product-header{
+     width: 100%;
+     max-width: 700px;
+     display: flex;
+     justify-content: flex-start;
+     border-bottom: 4px solid lightgrey;
+   }
+   .product-title{
+     width: 45%;
+   }
+
+   .price{
+     width: 15%;
+     
+     display: flex;
+     align-items: center;
+   }
+   .quantity{
+     width: 30%;
+     border-bottom: 1px solid lightgrey;
+     display: flex;
+     align-items: center;
+     padding: 10px 0;
+     
+   }
+   .total{
+    width: 10%;
+    border-bottom: 4px solid lightgrey;
+    display: flex;
+    align-items: center;
+   }
+   .product{
+    width: 45%;
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    
+   }
+   .products ion-icon{
+       cursor: pointer;
+   }
+   .products{
+       width: 100%;
+       display: flex;
+       flex-wrap: wrap;
+   }
+   
+.products img {
+    width: 75px;
+}
+.products .quantity{
+    width: 18%;
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 60px;
+}
+.products .total{
+    position: relative;
+    left: 400px;
+    bottom: 70px;
+}
+.products .price{
+    position: relative;
+    left: 315px;
+    bottom: 60px;
+}
+.products .des{
+    position: relative;
+    top: 40px;
+    right: 90px;
+}
+
+
+
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 30%;
+}
+
+.basketTotal {
+    width: 10%;
+}
+
+@media(max-width: 600px) {
+    nav h2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;;
+    }
+
+    .sm-hide {
+        display: none;;
+    }
+
+    .products,
+    .product-header {
+        justify-content: center;
+    }
+
+    .basketTotalContainer {
+        padding-right: 8%;
+    }
+}
